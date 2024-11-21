@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1731950704",
+        "python_version": "3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\temuj\\AliUjinAyane\\MLvenv\\Scripts\\mlagents-learn --run-id =MoreMovementRun1",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.5.1+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1731950732"
+    },
+    "total": 27.233175800000005,
+    "count": 1,
+    "self": 0.016397500000003618,
+    "children": {
+        "run_training.setup": {
+            "total": 0.45091959999999887,
+            "count": 1,
+            "self": 0.45091959999999887
+        },
+        "TrainerController.start_learning": {
+            "total": 26.765858700000003,
+            "count": 1,
+            "self": 0.0017868999999990365,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 26.763999,
+                    "count": 1,
+                    "self": 26.763999
+                },
+                "trainer_threads": {
+                    "total": 3.5999999994373866e-06,
+                    "count": 1,
+                    "self": 3.5999999994373866e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 6.920000000576465e-05,
+                    "count": 1,
+                    "self": 6.920000000576465e-05
+                }
+            }
+        }
+    }
+}

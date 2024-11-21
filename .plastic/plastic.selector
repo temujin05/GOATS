@@ -1,0 +1,4 @@
+repository "AliUjinAyane/AliUjinAyane@7972361466512@cloud"
+  path "/"
+    br "/main"
+    co "/main"
